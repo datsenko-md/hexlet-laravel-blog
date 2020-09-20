@@ -16,5 +16,6 @@
                 @yield('content')
             </div>
         </div>
+        <a href="{{ route('articles.index') }}">Статьи</a>
     </body>
 </html>
